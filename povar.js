@@ -1,3 +1,6 @@
+//Повар спрашивает повара: "Повар, какова твоя профессия, ты милиционер? "
+//"Нет" - отвечает повар - "Моя главная профессия повар, ААХАХ ХАХАХА ХАХАХХААХХ"
+
 const http = require('http');
 const qs = require('querystring');
 const server = http.createServer(function (req, res) {
